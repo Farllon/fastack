@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{47396CBC-F3E6-40CB-BD03-97D16A3FD836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fastack-data", "fastack-data", "{FC0FF9B0-211F-498F-99E1-76DFBB1D907F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "abstractions", "abstractions", "{76F84E31-B9F4-4C88-9C9C-711A47AC3A81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{DA59269E-F66F-4872-9342-F57C6AF21A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaStack.Data.Abstractions", "libs\fastack-data\abstractions\FaStack.Data.Abstractions\FaStack.Data.Abstractions.csproj", "{8BB45B5D-F1B7-4DC6-9723-1CA79381BDDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaStack.Data", "libs\fastack-data\core\FaStack.Data\FaStack.Data.csproj", "{EECED754-84B9-42FC-9A1A-D3EEA557E941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fastack-bus", "fastack-bus", "{898BC2D3-5D81-45FC-918A-5DC7558FE12B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "abstractions", "abstractions", "{397B1248-0588-4FD8-A9EF-130E4A68A9F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{7DB41A4E-D89A-4690-A74A-2C4627E98935}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaStack.Bus.Abstractions", "libs\fastack-bus\abstractions\FaStack.Bus.Abstractions\FaStack.Bus.Abstractions.csproj", "{A3FB06A1-7492-454C-BF90-EDCED3CFE551}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaStack.Bus", "libs\fastack-bus\core\FaStack.Bus\FaStack.Bus.csproj", "{242D7F72-7891-4CE5-BA3E-96F1E39E99E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E8AFB59B-BDB0-48D1-A4BC-84616985AB94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaStack.Bus.ConsoleSample", "libs\fastack-bus\samples\FaStack.Bus.ConsoleSample\FaStack.Bus.ConsoleSample.csproj", "{C1A085D2-42CD-4415-B4CB-5BB120D703EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{441CBEAD-35C5-46EC-9914-07ED898595FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaStack.Bus.Extensions.DependencyInjection", "libs\fastack-bus\extensions\FaStack.Bus.Extensions.DependencyInjection\FaStack.Bus.Extensions.DependencyInjection.csproj", "{3F83D702-65D2-4F73-A31A-5941FA744C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB45B5D-F1B7-4DC6-9723-1CA79381BDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB45B5D-F1B7-4DC6-9723-1CA79381BDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB45B5D-F1B7-4DC6-9723-1CA79381BDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB45B5D-F1B7-4DC6-9723-1CA79381BDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECED754-84B9-42FC-9A1A-D3EEA557E941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECED754-84B9-42FC-9A1A-D3EEA557E941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECED754-84B9-42FC-9A1A-D3EEA557E941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECED754-84B9-42FC-9A1A-D3EEA557E941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FB06A1-7492-454C-BF90-EDCED3CFE551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FB06A1-7492-454C-BF90-EDCED3CFE551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FB06A1-7492-454C-BF90-EDCED3CFE551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FB06A1-7492-454C-BF90-EDCED3CFE551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242D7F72-7891-4CE5-BA3E-96F1E39E99E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242D7F72-7891-4CE5-BA3E-96F1E39E99E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242D7F72-7891-4CE5-BA3E-96F1E39E99E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242D7F72-7891-4CE5-BA3E-96F1E39E99E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A085D2-42CD-4415-B4CB-5BB120D703EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A085D2-42CD-4415-B4CB-5BB120D703EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A085D2-42CD-4415-B4CB-5BB120D703EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A085D2-42CD-4415-B4CB-5BB120D703EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F83D702-65D2-4F73-A31A-5941FA744C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F83D702-65D2-4F73-A31A-5941FA744C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F83D702-65D2-4F73-A31A-5941FA744C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F83D702-65D2-4F73-A31A-5941FA744C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC0FF9B0-211F-498F-99E1-76DFBB1D907F} = {47396CBC-F3E6-40CB-BD03-97D16A3FD836}
+		{76F84E31-B9F4-4C88-9C9C-711A47AC3A81} = {FC0FF9B0-211F-498F-99E1-76DFBB1D907F}
+		{DA59269E-F66F-4872-9342-F57C6AF21A78} = {FC0FF9B0-211F-498F-99E1-76DFBB1D907F}
+		{8BB45B5D-F1B7-4DC6-9723-1CA79381BDDE} = {76F84E31-B9F4-4C88-9C9C-711A47AC3A81}
+		{EECED754-84B9-42FC-9A1A-D3EEA557E941} = {DA59269E-F66F-4872-9342-F57C6AF21A78}
+		{898BC2D3-5D81-45FC-918A-5DC7558FE12B} = {47396CBC-F3E6-40CB-BD03-97D16A3FD836}
+		{397B1248-0588-4FD8-A9EF-130E4A68A9F7} = {898BC2D3-5D81-45FC-918A-5DC7558FE12B}
+		{7DB41A4E-D89A-4690-A74A-2C4627E98935} = {898BC2D3-5D81-45FC-918A-5DC7558FE12B}
+		{A3FB06A1-7492-454C-BF90-EDCED3CFE551} = {397B1248-0588-4FD8-A9EF-130E4A68A9F7}
+		{242D7F72-7891-4CE5-BA3E-96F1E39E99E1} = {7DB41A4E-D89A-4690-A74A-2C4627E98935}
+		{E8AFB59B-BDB0-48D1-A4BC-84616985AB94} = {898BC2D3-5D81-45FC-918A-5DC7558FE12B}
+		{C1A085D2-42CD-4415-B4CB-5BB120D703EC} = {E8AFB59B-BDB0-48D1-A4BC-84616985AB94}
+		{441CBEAD-35C5-46EC-9914-07ED898595FF} = {898BC2D3-5D81-45FC-918A-5DC7558FE12B}
+		{3F83D702-65D2-4F73-A31A-5941FA744C3B} = {441CBEAD-35C5-46EC-9914-07ED898595FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C52EEC5-2FAA-4C32-AE5F-D298EC9678A2}
+	EndGlobalSection
+EndGlobal
