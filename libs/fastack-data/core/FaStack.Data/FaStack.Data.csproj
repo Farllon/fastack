@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+	<Authors>Farllon Augusto</Authors>
+	<VersionPrefix>1.0.0</VersionPrefix>
+	<VersionSuffix>beta1</VersionSuffix>
+	<Company>Facc Solutions</Company>
+	<Product>FaStack Data</Product>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
